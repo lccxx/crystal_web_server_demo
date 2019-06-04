@@ -1,0 +1,6 @@
+version: 1.0
+shards:
+  objectid-crystal:
+    github: liu-chong/objectid-crystal
+    version: 1.5
+

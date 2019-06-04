@@ -1,0 +1,18 @@
+name: crystal_web_server_demo
+version: 0.1.0
+
+authors:
+  - Lich <lich@netwcom.com>
+
+dependencies:
+  objectid-crystal:
+    github: liu-chong/objectid-crystal
+    version: ~> 1.5
+
+targets:
+  crystal_web_server_demo:
+    main: src/crystal_web_server_demo.cr
+
+crystal: 0.28.0
+
+license: MIT

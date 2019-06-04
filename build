@@ -1,0 +1,6 @@
+#!/bin/bash
+
+VERSION=`awk 'match($0, "VERSION = \"(.*)\"", m) { print m[1] }' src/crystal_web_server_demo.cr`
+
+crystal build --release --progress \
+  src/crystal_web_server_demo.cr -o bin/crystal_web_server_demo
